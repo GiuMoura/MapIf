@@ -1,0 +1,50 @@
+body
+{
+    background: url("/Images/ifsp-alto-tiete.jpg")no-repeat;
+    -moz-background-size:100% 100%;
+    -o-background-size:100% 100%;
+    background-size: 100%;
+}
+
+.tela
+{
+    background-color: #EBEBEB;
+    color:red;
+    width:400px;
+    height:350px;
+    margin:225px 0 0 750px;
+    padding-top: 25px;
+    text-align: center;
+    border-radius: 20px;
+}
+.tela input
+{
+    display: block;
+    margin:0px 10px 10px 15px;
+    width: 85%;
+    padding: 5px;
+    border-radius: 20px;
+    color:black;
+}
+.tela label
+{
+    display: block;
+    padding:10px 10px 5px 15px;
+    font: sans-sarif;
+    font-size: 30px;
+    color: black;
+}
+.tela button
+{
+    display: block;
+    margin: 10px 0 0 175px;
+    font: sans-sarif;
+    font-family: 20px;
+}
+.tela img
+{
+    display: block;
+    margin-top: 15px;
+    margin-left: 80px;
+    border: 4px solid rgba(32, 194, 17, 0.822);
+}
