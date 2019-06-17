@@ -1,0 +1,36 @@
+using UnityEngine;
+using System.Collections;
+
+public class MovimentaPlayer : MonoBehaviour
+{
+    public float velocidadeMov;
+    public float velocidadeRot;
+
+    void Start()
+    {
+        velocidadeMov = 25.0f;
+        velocidadeRot = 30.0f;
+    }
+
+
+    void Uptade()
+    {
+        if (Input.GetKey(KeyCode.W))
+        {
+            transform.Translate(0, 0, velocidadeMov * Time.deltaTime);
+        }
+        if (Input.GetKey("S"))
+        {
+            transform.Translate(0, 0, -velocidadeMov * Time.deltaTime);
+        }
+        if (Input.GetKey("A"))
+        {
+            transform.Translate(0, -velocidadeRot * Time.deltaTime, 0);
+        }
+        if (Input.GetKey("D"))
+        {
+            transform.Translate(0, -velocidadeRot * Time.deltaTime, 0);
+        }
+
+    }
+}
