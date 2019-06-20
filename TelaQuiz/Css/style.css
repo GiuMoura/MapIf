@@ -1,0 +1,83 @@
+body {
+    background-color: #00FF7F;
+}
+
+.tela {
+    width: 800px;
+    height: 1050px;
+    margin: 0 auto;
+    margin-top: 125px;
+    margin-left: 1100px;
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid #00ff00;
+    box-shadow: 10px 15px 5px #00ff00;
+}
+
+
+
+.tela h1 {
+    font-family: "sans-serif";
+    background-color:#D3D3D3;
+    font-size: 60px;
+    text-align: center;
+    background:#D3D3D3;
+    padding: 2px 0px;
+    border-radius: 50px;
+}
+
+
+
+.tela #question {
+    text-align: center;
+    font-family: "monospace";
+    font-size: 45px;
+    color: red;
+}
+
+
+
+.tela #btn0, #btn1, #btn2, #btn3 {
+    display: inline-block;
+    background-color: #778897;
+    width: 250px;
+    font-size: 30px;
+    color: #fff;
+    border: 1px solid #1D3C6A;
+    border-radius: 50px;
+    margin-left: 500px;
+    margin: 30px 100px 20px 48px;
+    padding: 10px 10px;
+}
+
+
+
+.tela #btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.tela #btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+
+
+.tela #progress {
+    text-align: center;
+    font-family: "monospace";
+    color: black;
+    font-size: 60px;
+    
+}
+
+
+
+.tela img
+{
+    display: block;
+    margin-top: 55px;
+    margin-left: 40px;
+    border: 4px solid rgba(32, 194, 17, 0.822);
+}
