@@ -13,16 +13,16 @@
 
             #login-box {
                 background-color: #1992b7;
-                width: 380px;
-                height: 260px;
+                width: 420px;
+                height: 300px;
                 margin:140px auto 0px;
                 border-radius:5px;
             }
 
              #login-box-interno {
-                width:360px;
-                height:240px;
-                background-color:#9dd69b;
+                width:400px;
+                height:280px;
+                background-color:#5becec;
                 position:absolute;
                 margin:10px;
                 border-radius:5px;
@@ -78,8 +78,36 @@
                 font: sans-serif;
                 
             }
+
+            #cad-box-label {
+                height: 45px;
+                text-align: center;
+                font: bold 14px/45px sans-serif;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                background: #f7fcff;
+                background: -moz-linear-gradient(top, #f7fcff 0%, #edf4f7 1%, #e2f6ff 3%);
+                background: -webkit-linear-gradient(top, #f7fcff 0%,#edf4f7 1%,#e2f6ff 3%);
+                background: linear-gradient(to bottom, #f7fcff 0%,#edf4f7 1%,#e2f6ff 3%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fcff', endColorstr='#e2f6ff',GradientType=0 );
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
+                border-bottom: 1px solid white;
+                box-shadow: 1px 0px 3px black;
+                color: #555555;
+                text-shadow: 1px 0px 1px white;
+            }
+            .input-div input {
+                width:300px;
+                height:20px;
+                padding-left:5px;
+                font: normal 13px sans-serif;
+                color:#080505;
+                border-radius:3px;
+                border:1px solid #bfc4c6;
+                outline:none;
+            }
         </style>
-        <title>Cadastre-se</title>
+        <title>Cadastro</title>
     </head>
 
     <body>
@@ -88,17 +116,26 @@
             <div id="Cad">
             <form action="cadastro-concluido.html" method="post" name="Cadastro" >
                 <table width="200" height="297" cellspacing="0" cellpadding="0" align=center>
+                    <div id="cad-box-label">Cadastre-se para entrar.</div>
                     <div id="campos">
-                    <label> Insira seu nome (Este será o nome visto pelos usuários) </label><br />
+                            <div class="input-div" id="input-nome">
+                    <label> Insira seu nome (Este será o nome visto pelos usuários): </label><br />
                     <input name="nome" type="text" class="borda" />
+                    </div>
                     <h1></h1>
+
+                    <div class="input-div" id="input-email">
                     <label>Insira seu email: </label><br />
                     <input name="email" type="text" class="borda"/>
+                    </div>
                     <h1></h1>
+
+                    <div class="input-div" id="input-senha">
                     <label>Insira sua senha: </label><br />
                     <input name="senha" type="password" class="borda"/>
+                    </div>
                     <h1></h1>
-                </div>
+                    </div>
                     <div id="botao">
                         <button class="button" type="submit" >Cadastrar</button>
                     </div>
