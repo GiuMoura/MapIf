@@ -1,0 +1,14 @@
+ <html>
+     <style>
+ #concluido {
+     font: sans-serif;
+ }
+ </style>
+
+ 
+ <div id="concluido">
+<p>
+    Seu cadastro foi concuido com sucesso!!
+</p>
+</div>
+</html>
