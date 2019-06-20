@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div align = "center">
+<h2>Atualização de Status</h2>
+<hr style="margin-bottom: 20px">
+<p>Aqui o prefessor vai escrever e dar as informações aos alunos sobre situações emergenciais</p>
+<hr style="margin-bottom: 20px">
+
+<form action="/action_page.php">
+  Informe a TURMA e CURSO:<br>
+  <input type="text" > <br>
+  <br>
+  Informe a MATÉRIA:<br>
+  <input type="text" ><br>
+  <br>
+  Agora escreva o comentário que deseja enviar a turma:<br>
+  <input type="text" ><br><br>
+  
+  <input type="submit" value="Enviar a turma">
+</form> 
+<br><br>
+<br><br>
+<img src="MAPIF.png" alt="Logo.mapIf" width="150" height="10"
+</body>
+</html>
