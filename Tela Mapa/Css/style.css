@@ -1,0 +1,146 @@
+body {
+    background-color: #00FF7F;
+}
+
+
+
+.tela {
+    width: 800px;
+    height: 1300px;
+    margin: 0 auto;
+    margin-top: 125px;
+    margin-left: 1100px;
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid #00ff00;
+    box-shadow: 10px 15px 5px #00ff00;
+}
+
+
+
+.tela h1 {
+    font-family: "sans-serif";
+    background-color:#D3D3D3;
+    font-size: 60px;
+    text-align: center;
+    background:#D3D3D3;
+    padding: 2px 0px;
+    border-radius: 50px;
+}
+
+
+
+
+.tela input
+{
+    align-items: center;
+    display: block;
+    margin-left: -20px;
+    width: 500px;
+    height: 30px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    border-radius: 30px;
+    color:black;
+}
+
+
+
+
+#origem
+{
+    text-align: center;
+    margin-top: 120px;
+    display: block;
+    padding:0px 0px 0px 15px;
+    font: sans-sarif;
+    font-size: 50px;
+    font-style: italic;
+    color: black;
+}
+
+
+
+
+#destino
+{
+    font-style: italic;
+    text-align: center;
+    display: block;
+    padding:-100px 0px 0px 15px;
+    font: sans-sarif;
+    font-size: 50px;
+    color: black;
+}
+
+
+
+
+#question {
+    margin-top: -1125px;
+    text-align: center;
+    font-family: "monospace";
+    font-size: 70px;
+    color: green;
+    margin-bottom: 100px;
+}
+
+
+
+
+#btn0{
+    display: inline-block;
+    background-color: #208636;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    color: #fff;
+    border: 1px solid #1D3C6A;
+    border-radius: 50px;
+    margin-left: 520px;
+    margin-top: 80px;
+    padding: 10px 10px;
+}
+
+
+
+#btn1{
+    display: inline-block;
+    background-color: #208636;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    color: #fff;
+    border: 1px solid #1D3C6A;
+    border-radius: 50px;
+    margin-left: 520px;
+    margin-top: 120px;
+    padding: 10px 10px;
+}
+
+
+
+.tela #btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #40d360;
+}
+
+
+
+
+.tela #btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+
+
+.tela #progress {
+    text-align: center;
+    font-family: "monospace";
+    color: black;
+    font-size: 60px;    
+}
+
+
