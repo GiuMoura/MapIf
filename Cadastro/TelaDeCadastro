@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+            .borda {
+                border:360 solid 1px;
+            }
+
+            #Cad {
+                text-align:center;
+            }
+
+            #login-box {
+                background-color: #1992b7;
+                width: 380px;
+                height: 260px;
+                margin:140px auto 0px;
+                border-radius:5px;
+            }
+
+             #login-box-interno {
+                width:360px;
+                height:240px;
+                background-color:#9dd69b;
+                position:absolute;
+                margin:10px;
+                border-radius:5px;
+                box-shadow:0px 0px 5px black;
+                overflow:hidden;
+            }
+
+            #botao {
+                float:right;
+                margin-right:20px;
+                background-color:red;
+                padding:5px 15px;
+                font:bold 12px sans-serif;
+                border-radius:20px;
+                text-shadow:0px 1px 0px white;
+                border: 1px solid #9eb9c3;
+                /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c1ebff+0,8cdaff+4,c7eaf9+97 */
+            background: #c1ebff; /* Old browsers */
+            background: -moz-linear-gradient(top,  #879297 0%, #8cdaff 4%, #c7eaf9 97%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top,  #c1ebff 0%,#8cdaff 4%,#c7eaf9 97%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom,  #c1ebff 0%,#8cdaff 4%,#c7eaf9 97%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1ebff', endColorstr='#c7eaf9',GradientType=0 ); /* IE6-9 */
+            color:#527988;
+                box-shadow: 0px 0px 10px #c9c9c9;
+            }
+            #botao:hover {
+                    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c7eaf9+3,8cdaff+96,c1ebff+100 */
+                background: #c7eaf9; /* Old browsers */
+                background: -moz-linear-gradient(top,  #c7eaf9 3%, #8cdaff 96%, #c1ebff 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(top,  #c7eaf9 3%,#8cdaff 96%,#c1ebff 100%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(to bottom,  #c7eaf9 3%,#8cdaff 96%,#c1ebff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7eaf9', endColorstr='#c1ebff',GradientType=0 ); /* IE6-9 */
+                    cursor:pointer;
+    }
+
+            .button {
+            background: #c1ebff; /* Old browsers */
+            background: -moz-linear-gradient(top,  #879297 0%, #8cdaff 4%, #c7eaf9 97%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top,  #c1ebff 0%,#8cdaff 4%,#c7eaf9 97%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom,  #c1ebff 0%,#8cdaff 4%,#c7eaf9 97%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1ebff', endColorstr='#c7eaf9',GradientType=0 ); /* IE6-9 */
+            color:#527988;
+                border: none;
+                padding: 5px 5px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                font: sans-serif;
+                }
+
+            #campos {
+                font: sans-serif;
+                
+            }
+        </style>
+        <title>Cadastre-se</title>
+    </head>
+
+    <body>
+    <div id="login-box">
+        <div id="login-box-interno">
+            <div id="Cad">
+            <form action="cadastro-concluido.html" method="post" name="Cadastro" >
+                <table width="200" height="297" cellspacing="0" cellpadding="0" align=center>
+                    <div id="campos">
+                    <label> Insira seu nome (Este será o nome visto pelos usuários) </label><br />
+                    <input name="nome" type="text" class="borda" />
+                    <h1></h1>
+                    <label>Insira seu email: </label><br />
+                    <input name="email" type="text" class="borda"/>
+                    <h1></h1>
+                    <label>Insira sua senha: </label><br />
+                    <input name="senha" type="password" class="borda"/>
+                    <h1></h1>
+                </div>
+                    <div id="botao">
+                        <button class="button" type="submit" >Cadastrar</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+            </table>
+        </form>
+    </body>
+</html>
