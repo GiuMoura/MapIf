@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+<html> 
+<div align = "center"> 
+<h2>Status Matérias</h2> 
+<hr style="margin-bottom: 20px"> 
+<p>O Status é o lugar onde professores irão lançar comunicados de urgência ao seus alunos</p> 
+</div align = "center"> 
+<hr style="margin-bottom: 20px"> 
+<h1 style="border:solid black;">Matemática-112-Mêcanica</h1> 
+<p>Devido a forte tempestade de hoje,estou preso no trânsito e não conseguirei chegar a tempo no instituto,falaremos da prova em outro momento</p>  
+<input type="checkbox" name="if" value="Recebido pelos alunos da turma 112 de mecânica" >Recebido pelos alunos da turma 112 de mecânica <br> 
+<hr style="margin-bottom: 15px"> 
+<h1 style="border:solid black;">Lógica 1-113-Informática</h1> 
+<p>Bom dia,alunos,fiquei doente e não irei dar aula hoje,porém passei uma lista de exercícios no email da turma</p>  
+<input type="checkbox" name="if" value="Recebido pelos alunos da turma 113 de Informática" >Recebido pelos alunos da turma 113 de Informática <br>
+<hr style="margin-bottom: 15px"> 
+<h1 style="border:solid black;">Matemática-231-Informática</h1> 
+<p>Não estive presente no Instituto nas primeiras aulas,porém nossa aula de hoje acontecerá normalmente</p>  
+<input type="checkbox" name="if" value="Recebido pelos alunos da turma 231 de informática" >Recebido pelos alunos da turma 231 de informática" <br> 
+<hr style="margin-bottom: 15px"> 
+</body> 
+</html> 
