@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+            body {
+                background-color:#00FF7F;
+            }
+        </style>
+
+        <title>Cadastro</title>
+        <link rel="stylesheet" type="text/css" href="TelaDeCadastro.css">
+    </head>
+
+<body>
+    <div id="login-box">
+        <div id="login-box-interno">
+            <div id="Cad">
+            <form action="cadastro-concluido.html" method="post" name="Cadastro" >
+                <table width="200" height="297" cellspacing="0" cellpadding="0" >
+
+                    <div id="cad-box-label">Cadastre-se para entrar.</div>
+                    <div id="campos">
+                            <div class="input-div" id="input-nome">
+                    <label> Nome (Este será o nome visto pelos usuários): </label><br />
+                    <input name="nome" type="text" class="borda" />
+                    </div>
+                    <h1></h1>
+
+                    <div class="input-div" id="input-email">
+                    <label>E-mail: </label><br />
+                    <input name="email" type="text" class="borda"/>
+                    </div>
+                    <h1></h1>
+
+                    <label>Curso: </label><br />
+                    <select name="curso">
+                            <option value="Info">Informática</option>
+                            <option value="Elo">Eletrônica</option>
+                            <option value="Ele">Eletrotécnica</option>
+                            <option value="Mec">Mecânica</option>
+                    </select>
+                    <h1></h1>
+
+                    <div class="input-div" id="input-senha">
+                    <label>Senha: </label><br />
+                    <input name="senha" type="password" class="borda"/>
+                    </div>
+                    <h1></h1>
+                    </div>
+
+                    <div id="botao">
+                        <button class="button" type="submit" >Cadastrar</button>
+                    </div>
+
+            </div>
+                    <div id="selecao-cadastro">
+                        <p>Selecione o tipo de cadastro:</p>
+
+                            <input type="checkbox" id="aluno" name="aluno" checked>
+                            <label for="aluno">Aluno</label>
+
+                            <input type="checkbox" id="servidor" name="servidor">
+                            <label for="servidor">Servidor</label>
+                    </div>
+                    
+                </table>
+            </form> 
+        </div>
+    </div>
+</body>
+</html>
