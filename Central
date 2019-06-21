@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+<html> 
+<div align = "center"> 
+<p style="font-size:50px;" color="red;">Bem Vindo ao MapIf</p> 
+<img src="MAPIF.png" alt="Logo.mapIf" width="150" height="10" 
+<p>  
+<p style="background-color:red;"> 
+O MapIf é um aplicativo para os estudantes,professores e frenquentadores do IFSP-Campus São Paulo,nós visamos melhorar a locomoção dos mesmos de forma lúdica e interativa 
+</p> 
+ 
+<hr style="margin-bottom: 20px"> 
+<p>O que deseja fazer?</p> 
+<form action="/action_page.php"> 
+  <input type="checkbox" name="if" value="Ir ao mapa" > Ir ao mapa<br> 
+  <input type="checkbox" name="if" value="Pergunta do dia" > Pergunta do dia<br> 
+  <input type="checkbox" name="if" value="Status da Matéria" > Status da matéria<br> 
+  <input type="checkbox" name="if" value="Ir ao mapa" > Ir ao mapa<br> 
+  <input type="submit"> 
+</form>  
+ 
+</body> 
+</html> 
