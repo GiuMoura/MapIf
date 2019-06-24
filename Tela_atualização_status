@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-
+<link rel="stylesheet" type="text/css" href="Atualização_status_css.css">
 <div align = "center">
 <h2>Atualização de Status</h2>
 <hr style="margin-bottom: 20px">
